@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-eta",
+  "version": "0.0.1",
+  "description": "Emerging Technology Advisors eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmergingTechnologyAdvisors/eslint-config-eta.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eta"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmergingTechnologyAdvisors/eslint-config-eta/issues"
+  },
+  "homepage": "https://github.com/EmergingTechnologyAdvisors/eslint-config-eta",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  }
+}
