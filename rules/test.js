@@ -4,6 +4,7 @@ module.exports = {
     'jest': true
   },
   'globals': {
-    'assert': true
+    'assert': true,
+    'expect': true
   }
 };
