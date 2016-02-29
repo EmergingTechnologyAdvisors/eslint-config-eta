@@ -6,7 +6,9 @@ module.exports = {
     'camelcase': [2, {'properties': 'never'}],
     // enforce one true comma style
     'comma-style': [2, 'last'],
-    // enforce newline at the end of file, with no multiple empty lines
+    // enforce spacing after array element and functions
+		'comma-spacing': [2, {'before':false, 'after': true}],
+		// enforce newline at the end of file, with no multiple empty lines
     'eol-last': 2,
     // specify whether double or single quotes should be used in JSX attributes
     'jsx-quotes': 2,
