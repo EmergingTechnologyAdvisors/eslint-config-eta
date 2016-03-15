@@ -2,7 +2,11 @@ module.exports = {
   'env': {
     'es6': true
   },
-  'ecmaFeatures': {
+
+  'parserOptions': {
+    'ecmaVersion': 6,
+    'sourceType': 'module',
+    'ecmaFeatures': {
     'arrowFunctions': true,
     'blockBindings': true,
     'classes': true,
@@ -20,6 +24,7 @@ module.exports = {
     'superInFunctions': true,
     'templateStrings': true,
     'jsx': true
+    }
   },
   'rules': {
     // disallow modifying variables that are declared using const
