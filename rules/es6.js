@@ -32,8 +32,6 @@ module.exports = {
     // require let or const instead of var
     'no-var': 1,
     // suggest using of const declaration for variables that are never modified after declared
-    'prefer-const': 1,
-    //all 'use strict' in all files
-    'strict': [2, 'global']
+    'prefer-const': 1
   }
 };
