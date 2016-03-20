@@ -5,7 +5,7 @@ module.exports = {
 
   'parserOptions': {
     'ecmaVersion': 6,
-    'sourceType': 'module',
+    'sourceType': 'script',
     'ecmaFeatures': {
     'arrowFunctions': true,
     'blockBindings': true,
@@ -14,7 +14,7 @@ module.exports = {
     'destructuring': false,
     'forOf': true,
     'generators': false,
-    'modules': true,
+    'modules': false,
     'objectLiteralComputedProperties': true,
     'objectLiteralDuplicateProperties': false,
     'objectLiteralShorthandMethods': true,
@@ -32,6 +32,8 @@ module.exports = {
     // require let or const instead of var
     'no-var': 1,
     // suggest using of const declaration for variables that are never modified after declared
-    'prefer-const': 1
+    'prefer-const': 1,
+    //all 'use strict' in all files
+    'strict': [2, 'global']
   }
 };
