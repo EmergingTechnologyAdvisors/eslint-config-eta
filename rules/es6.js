@@ -32,6 +32,8 @@ module.exports = {
     // require let or const instead of var
     'no-var': 1,
     // suggest using of const declaration for variables that are never modified after declared
-    'prefer-const': 1
+    'prefer-const': 1,
+    //allow comments in case blocks without fallthrough statement
+    'no-fallthrough': 0
   }
 };
