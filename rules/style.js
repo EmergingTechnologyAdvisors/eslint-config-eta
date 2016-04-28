@@ -28,8 +28,6 @@ module.exports = {
     'semi-spacing': [2, {'before': false, 'after': true}],
     // require or disallow use of semicolons instead of ASI
     'semi': [2, 'always'],
-    // require spaces around operators
-    'space-infix-ops': 2,
     // require constructors to use initial caps
     'new-cap': [0, {'capIsNew': true}]
   }
