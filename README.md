@@ -16,7 +16,7 @@ Install the default configuration package and `eslint` dependency:
 npm install --save-dev eslint-config-eta eslint
 ```
 
-Add the config to a `.eslintrc` file using the ESLint `extends` attribute:
+Add the config to a `.eslintrc.json` file using the ESLint `extends` attribute:
 
 ```json
 {
@@ -34,7 +34,7 @@ Install the default configuration package and `eslint` dependency:
 npm install --save-dev eslint-config-eta eslint
 ```
 
-Add the config to a `.eslintrc` file using the ESLint `extends` attribute:
+Add the config to a `.eslintrc.json` file using the ESLint `extends` attribute:
 
 ```json
 {
@@ -52,7 +52,7 @@ Install the React.js configuration package and `eslint` dependency:
 npm install --save-dev eslint-config-eta eslint-plugin-react eslint-plugin-babel eslint
 ```
 
-Add the config to a `.eslintrc` file using the ESLint `extends` attribute:
+Add the config to a `.eslintrc.json` file using the ESLint `extends` attribute:
 
 ```json
 {
