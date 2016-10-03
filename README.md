@@ -13,7 +13,7 @@ The default ESLint configuration lints for ES5.
 Install the default configuration package and `eslint` dependency:
 
 ```
-npm install --save-dev eslint-config-eta eslint
+npm i -S -D eslint-config-eta eslint
 ```
 
 Add the config to a `.eslintrc.json` file using the ESLint `extends` attribute:
@@ -31,7 +31,7 @@ The ES6 ESLint configuration lints for ES6.
 Install the default configuration package and `eslint` dependency:
 
 ```
-npm install --save-dev eslint-config-eta eslint
+npm i -S -D eslint-config-eta eslint
 ```
 
 Add the config to a `.eslintrc.json` file using the ESLint `extends` attribute:
@@ -49,7 +49,7 @@ The React.js eslint configuration lints for both ES6 and React.js.
 Install the React.js configuration package and `eslint` dependency:
 
 ```
-npm install --save-dev eslint-config-eta eslint-plugin-react eslint-plugin-babel eslint
+npm i -S -D eslint-config-eta eslint-plugin-react eslint-plugin-babel eslint
 ```
 
 Add the config to a `.eslintrc.json` file using the ESLint `extends` attribute:
