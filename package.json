@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/EmergingTechnologyAdvisors/eslint-config-eta",
   "devDependencies": {
-    "eslint": "^2.4.0"
+    "eslint": "^3.7.0"
   }
 }
