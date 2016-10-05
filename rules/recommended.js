@@ -7,6 +7,6 @@ module.exports = {
     'comma-dangle' : 'error',
     'no-unsafe-finally': 'off',
     'no-native-reassign': 'off',
-    'require-yied': 'error'
+    'require-yield': 'error'
   }
 }
