@@ -34,6 +34,10 @@ module.exports = {
     // suggest using of const declaration for variables that are never modified after declared
     'prefer-const': 1,
     //allow comments in case blocks without fallthrough statement
-    'no-fallthrough': 0
+    'no-fallthrough': 0,
+    // helps catch finally clauses that you may not behave as you think
+    'no-unsafe-finally': 2,
+    // helps to identify generator functions that do not have the yeild keyword
+    'require-yield': 1
   }
 };

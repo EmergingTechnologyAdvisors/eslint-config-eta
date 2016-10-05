@@ -3,6 +3,7 @@ module.exports = {
   'extends': 'eslint:recommended',
   'rules': {
     // override to allow console.log
-    'no-console': 0
+    'no-console': 0,
+    'comma-dangle' : 'error'
   }
 }
