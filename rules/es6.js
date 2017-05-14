@@ -42,6 +42,9 @@ module.exports = {
     // helps to identify generator functions that do not have the yeild keyword
     'require-yield': 1,
     // allow backtick in es6
-    'quotes': [2, 'single', 'avoid-escape', 'backtick'],
+    'quotes': [2, 'single', {
+      avoidEscape: true,
+      allowTemplateLiterals: true
+    }]
   }
 };
