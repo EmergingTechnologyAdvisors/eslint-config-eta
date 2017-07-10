@@ -33,11 +33,18 @@ module.exports = {
     'no-var': 1,
     // suggest using of const declaration for variables that are never modified after declared
     'prefer-const': 1,
+    // prefer using template strings over string concat
+    'prefer-template': 1,
     //allow comments in case blocks without fallthrough statement
     'no-fallthrough': 0,
     // helps catch finally clauses that you may not behave as you think
     'no-unsafe-finally': 2,
     // helps to identify generator functions that do not have the yeild keyword
-    'require-yield': 1
+    'require-yield': 1,
+    // allow backtick in es6
+    'quotes': [2, 'single', {
+      avoidEscape: true,
+      allowTemplateLiterals: true
+    }]
   }
 };
