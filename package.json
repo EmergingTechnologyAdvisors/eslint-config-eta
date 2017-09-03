@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-eta",
-  "version": "0.0.10",
+  "version": "1.0.0",
   "description": "Emerging Technology Advisors eslint config",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/EmergingTechnologyAdvisors/eslint-config-eta",
   "devDependencies": {
-    "eslint": "^3.7.0"
+    "eslint": "^4.6.0"
   }
 }
