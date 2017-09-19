@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
-    'eslint-config-eta/rules/recommended',
-    'eslint-config-eta/rules/node',
-    'eslint-config-eta/rules/style',
-    'eslint-config-eta/rules/test'
+    'eslint-config-cloudreach/rules/recommended',
+    'eslint-config-cloudreach/rules/node',
+    'eslint-config-cloudreach/rules/style',
+    'eslint-config-cloudreach/rules/test'
   ]
 };

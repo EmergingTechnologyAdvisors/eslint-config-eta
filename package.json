@@ -1,25 +1,25 @@
 {
-  "name": "eslint-config-eta",
+  "name": "eslint-config-cloudreach",
   "version": "1.0.0",
-  "description": "Emerging Technology Advisors eslint config",
+  "description": "Cloudreach's ESLint config",
   "main": "index.js",
   "scripts": {
     "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EmergingTechnologyAdvisors/eslint-config-eta.git"
+    "url": "https://github.com/cloudreach/eslint-config-cloudreach.git"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
-    "eta"
+    "cloudreach"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EmergingTechnologyAdvisors/eslint-config-eta/issues"
+    "url": "https://github.com/cloudreach/eslint-config-cloudreach/issues"
   },
-  "homepage": "https://github.com/EmergingTechnologyAdvisors/eslint-config-eta",
+  "homepage": "https://github.com/cloudreach/eslint-config-cloudreach",
   "devDependencies": {
     "eslint": "^4.6.0"
   }

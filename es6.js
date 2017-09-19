@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'eslint-config-eta/index',
-    'eslint-config-eta/rules/es6'
+    'eslint-config-cloudreach/index',
+    'eslint-config-cloudreach/rules/es6'
   ]
 };
