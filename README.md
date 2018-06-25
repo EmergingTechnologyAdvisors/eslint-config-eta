@@ -24,9 +24,9 @@ Add the config to a `.eslintrc.json` file using the ESLint `extends` attribute:
 }
 ```
 
-### ES6
+### ES8
 
-The ES6 ESLint configuration lints for ES6.
+The ES8 ESLint configuration lints for ES8.
 
 Install the default configuration package and `eslint` dependency:
 
@@ -38,13 +38,13 @@ Add the config to a `.eslintrc.json` file using the ESLint `extends` attribute:
 
 ```json
 {
-  "extends": "cloudreach/es6"
+  "extends": "cloudreach/es8"
 }
 ```
 
 ### React.js
 
-The React.js eslint configuration lints for both ES6 and React.js.
+The React.js eslint configuration lints for both ES8 and React.js.
 
 Install the React.js configuration package and `eslint` dependency:
 
