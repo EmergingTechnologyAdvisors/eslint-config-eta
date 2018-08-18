@@ -1,6 +1,6 @@
 module.exports = {
   'env': {
-    'es8': true
+    'es6': true
   },
 
   'parserOptions': {
